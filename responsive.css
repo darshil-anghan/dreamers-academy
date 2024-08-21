@@ -1,0 +1,754 @@
+@media (max-width: 1230px) {
+  .pricing-list-block {
+    padding: 0;
+  }
+  .pricing-card-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* footer */
+
+  .footer-inner-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*  */
+
+  .coding-information-block {
+    /* max-width: 700px; */
+    padding: 42px 0;
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
+  .coding-detail-block {
+    padding: 0 35px;
+  }
+}
+@media (max-width: 1125px) {
+  /* hero */
+  .hero-section {
+    padding: 40px 0;
+  }
+  .main-title {
+    font-size: 44px;
+    line-height: 110%;
+  }
+  .main-subtitle {
+    color: #262729;
+    font-size: 16px;
+    padding: 20px 0 40px 0;
+  }
+  .main-btn-video {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .main-btn-free {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* course */
+
+  .img-block {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .course-img {
+    width: auto;
+  }
+  .course-subtitle {
+    font-size: 44px;
+  }
+
+  /* trial */
+
+  .trial-main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .trial-block {
+    display: flex;
+    flex-flow: wrap-reverse;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .trial-content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .trial-title {
+    font-size: 36px;
+  }
+
+  /* journey */
+
+  .journey-title {
+    font-size: 42px;
+  }
+
+  /*  */
+  .expert-title-block {
+    max-width: 70%;
+  }
+  .expert-title {
+    font-size: 38px;
+  }
+
+  /* experience */
+  .experience-section {
+    padding: 110px 0;
+  }
+
+  .experience-title {
+    font-size: 42px;
+  }
+
+  .experience-top-img-block {
+    padding: 70px 0 130px 0;
+  }
+
+  .experience-bottom-img-block {
+    padding-top: 60px;
+  }
+
+  /* pricing */
+
+  .pricing-section {
+    padding: 90px 0;
+  }
+
+  .pricing-price-block {
+    font-size: 26px;
+  }
+
+  .pricing-price {
+    font-size: 48px;
+  }
+
+  .pricing-month {
+    font-size: 26px;
+  }
+
+  .pricing-title {
+    font-size: 20px;
+  }
+  .pricing-subtitle {
+    font-size: 46px;
+    padding: 20px 0 68px 0;
+  }
+
+  /* about */
+
+  .about-section {
+    padding: 120px 0 150px 0;
+  }
+
+  .about-card-block {
+    gap: 20px;
+  }
+
+  .about-title {
+    font-size: 22px;
+  }
+
+  .about-subtitle-block {
+    max-width: 508px;
+  }
+
+  .about-subtitle {
+    font-size: 44px;
+    padding-bottom: 70px;
+  }
+
+  /* footer */
+
+  .footer-footer {
+    padding-top: 100px;
+  }
+
+  .footer-inner-block {
+    padding: 90px 0 100px 0;
+  }
+
+  .footer-title {
+    font-size: 50px;
+    padding-bottom: 70px;
+  }
+
+  .footer-input {
+    padding: 21px 120px 21px 27px;
+  }
+
+  /*  */
+  .coding-information-block {
+    /* max-width: 700px; */
+    padding: 30px 0;
+    width: 50%;
+  }
+
+  .coding-detail-block {
+    padding: 0 14px;
+  }
+
+  .coding-list-item {
+    font-size: 22px;
+  }
+}
+/*  */
+
+@media (max-width: 1023px) {
+  /*  */
+  .main-block {
+    text-align: center;
+    max-width: 700px;
+    align-items: center;
+  }
+
+  .main-title {
+    font-size: 36px;
+    line-height: 110%;
+  }
+
+  .link-block {
+    display: none;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+  }
+  .header-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-link-list {
+    text-align: center;
+  }
+  .hero-section {
+    padding-top: 0;
+  }
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+  .change {
+    background: #fff;
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    /* opacity: 0.5; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    flex-direction: column;
+  }
+  #menu {
+    display: block;
+    z-index: 101;
+  }
+
+  /* course */
+
+  .course-section {
+    padding: 90px 0;
+  }
+
+  .course-subtitle {
+    font-size: 36px;
+  }
+
+  /* trial */
+
+  .trial-title {
+    font-size: 32px;
+  }
+
+  .trial-para {
+    font-size: 16px;
+  }
+
+  /* journey */
+
+  .journey-title {
+    font-size: 34px;
+  }
+
+  /* expert */
+
+  .expert-section {
+    padding: 80px 0;
+  }
+
+  .expert-trainer-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .expert-title-block {
+    padding-bottom: 50px;
+  }
+
+  .expert-title {
+    font-size: 32px;
+  }
+
+  .expert-more-block {
+    padding-top: 50px;
+  }
+
+  .expert-detail-inner {
+    padding: 10px 0 15px 0;
+  }
+
+  /* experience */
+
+  .experience-title {
+    font-size: 32px;
+  }
+
+  /* pricing */
+
+  /* .pricing-other {
+    
+  } */
+
+  .pricing-section {
+    padding: 70px 0;
+  }
+
+  .pricing-card {
+    box-shadow: 0px 4px 60px rgba(13, 89, 239, 0.06);
+  }
+
+  .pricing-price-block {
+    font-size: 24px;
+  }
+
+  .pricing-price {
+    font-size: 42px;
+  }
+
+  .pricing-month {
+    font-size: 24px;
+  }
+
+  .pricing-title {
+    font-size: 22px;
+  }
+  .pricing-subtitle {
+    font-size: 38px;
+    padding: 15px 0 58px 0;
+  }
+
+  /* about */
+
+  .footer-footer {
+    padding-top: 80px;
+  }
+
+  .about-section {
+    padding: 100px 0 120px 0;
+  }
+
+  .about-card-block {
+    gap: 30px;
+  }
+
+  .about-title {
+    font-size: 20px;
+  }
+
+  .about-subtitle-block {
+    max-width: 435px;
+  }
+
+  .about-subtitle {
+    font-size: 38px;
+    padding-bottom: 60px;
+  }
+
+  /* footer */
+
+  .footer-footer {
+    padding-top: 70px;
+  }
+
+  .footer-contact-block {
+    max-width: 40%;
+  }
+
+  .footer-inner-block {
+    padding: 70px 0 80px 0;
+  }
+
+  .footer-title {
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+  .footer-input {
+    padding: 15px 80px 15px 27px;
+  }
+
+  .footer-btn {
+    padding: 20px 30px;
+  }
+
+  /*  */
+
+  .coding-list-item {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 740px) {
+  /* hero */
+  .main-title {
+    font-size: 30px;
+  }
+
+  /* course */
+  .course-section {
+    padding: 70px 0;
+  }
+
+  .course-card-block {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+  }
+  .course-img {
+    width: 100%;
+  }
+  .course-title {
+    font-size: 20px;
+  }
+
+  .course-subtitle {
+    font-size: 26px;
+    padding-bottom: 50px;
+  }
+
+  /* trial */
+
+  .trial-section {
+    padding: 80px 0;
+  }
+
+  .trial-title {
+    font-size: 28px;
+  }
+
+  /* journey */
+
+  .journey-title {
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  /* expert */
+
+  .expert-section {
+    padding: 60px 0;
+  }
+
+  .expert-title {
+    font-size: 26px;
+  }
+
+  .expert-more-detail {
+    font-size: 18px;
+  }
+  .expert-detail-inner {
+    padding: 10px 0 20px 0;
+  }
+
+  /* experience */
+
+  .experience-section {
+    padding: 70px 0;
+  }
+
+  .experience-title {
+    font-size: 26px;
+  }
+
+  .experience-top-img-block {
+    padding: 50px 0 90px 0;
+  }
+
+  .experience-bottom-img-block {
+    padding-top: 40px;
+  }
+
+  /* pricing */
+
+  .pricing-section {
+    padding: 60px 0;
+  }
+
+  .pricing-price-block {
+    font-size: 20px;
+  }
+
+  .pricing-price {
+    font-size: 38px;
+  }
+
+  .pricing-month {
+    font-size: 22px;
+  }
+
+  .pricing-title {
+    font-size: 20px;
+  }
+  .pricing-subtitle {
+    font-size: 30px;
+    padding: 10px 0 40px 0;
+  }
+
+  /* about */
+
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .about-card-block {
+    gap: 40px;
+  }
+
+  .about-title {
+    font-size: 18px;
+  }
+
+  .about-subtitle-block {
+    max-width: 370px;
+  }
+
+  .about-subtitle {
+    font-size: 32px;
+    padding-bottom: 50px;
+  }
+
+  /* footer */
+
+  .footer-footer {
+    padding-top: 60px;
+  }
+
+  .footer-contact-block {
+    max-width: 55%;
+  }
+
+  .footer-inner-block {
+    padding: 60px 0;
+  }
+
+  .footer-title {
+    font-size: 27px;
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .footer-input {
+    padding: 15px 60px 15px 20px;
+  }
+
+  .footer-login-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-btn {
+    padding: 15px 30px;
+  }
+
+  /*  */
+
+  .coding-list-item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 426px) {
+  .main-title {
+    font-size: 26px;
+  }
+  .main-subtitle {
+    font-size: 16px;
+  }
+
+  .main-btn-video {
+    padding: 10px 10px;
+  }
+  .main-btn-free {
+    padding: 10px 10px;
+  }
+
+  /* course */
+
+  /* trial */
+
+  .trial-section {
+    padding: 40px 0;
+  }
+  .trial-title {
+    font-size: 26px;
+  }
+
+  /* journey */
+
+  .journey-section {
+    padding: 50px 0;
+  }
+
+  .journey-title {
+    font-size: 26px;
+    padding-bottom: 30px;
+  }
+
+  /* expert */
+
+  .expert-title {
+    font-size: 22px;
+  }
+
+  .expert-title-block {
+    max-width: 100%;
+  }
+  .expert-detail-inner {
+    padding: 5px 0 25px 0;
+  }
+
+  /* experience */
+
+  .experience-section {
+    padding: 60px 0;
+  }
+
+  .experience-title {
+    font-size: 22px;
+  }
+
+  .experience-top-img-block {
+    padding: 40px 0 80px 0;
+  }
+
+  .experience-bottom-img-block {
+    padding-top: 30px;
+  }
+
+  /* pricing */
+
+  .pricing-section {
+    padding: 40px 0;
+  }
+
+  .pricing-price-block {
+    font-size: 18px;
+  }
+
+  .pricing-price {
+    font-size: 30px;
+  }
+
+  .pricing-card {
+    max-width: 290px;
+  }
+
+  .pricing-list-block {
+    width: 195px;
+  }
+
+  .pricing-list-item {
+    font-weight: 400;
+  }
+
+  .pricing-month {
+    font-size: 20px;
+  }
+
+  .pricing-title {
+    font-size: 18px;
+  }
+  .pricing-subtitle {
+    font-size: 26px;
+    padding: 5px 0 30px 0;
+  }
+
+  /* about */
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-personal-block {
+    max-width: 173px;
+  }
+
+  .about-card-block {
+    gap: 50px;
+  }
+
+  .about-title {
+    font-size: 16px;
+  }
+
+  .about-subtitle-block {
+    max-width: 275px;
+  }
+
+  .about-subtitle {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+
+  /* footer */
+  .footer-footer {
+    padding-top: 50px;
+  }
+
+  .footer-contact-block {
+    max-width: 80%;
+  }
+
+  .footer-inner-block {
+    padding: 50px 0;
+  }
+
+  .footer-title {
+    font-size: 24px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .footer-input {
+    padding: 10px 70px 10px 20px;
+  }
+
+  .footer-btn {
+    padding: 10px 30px;
+  }
+
+  /*  */
+
+  .coding-list-item {
+    font-size: 16px;
+  }
+}
